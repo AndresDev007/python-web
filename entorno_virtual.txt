@@ -1,0 +1,8 @@
+//para iniciar un entorno virtual (para que todo lo que instalemos se a de forma local en el mismo proyecto no de manera global en todo el equipo ya que habrá cosas que solo instalemos en este proyecto)
+python -m venv miEntornoVirtual
+
+//para activar el entorno virtual
+source link_bio/venv/Scripts/activate
+
+//desactivar el entorno virtual
+deactivate

@@ -1,0 +1,10 @@
+//instalar reflex en el entorno virtual
+pip install reflex
+
+// inicializar réflex y crea las carpetas correspondientes
+reflex init
+
+// compilar el proyecto y lanzarlo a localhost
+reflex run
+
+////con el entorno virtual + reflex se crea el frontend y el backend, en el puerto 3000 y 8000 respectivamente
