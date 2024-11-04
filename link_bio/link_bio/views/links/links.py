@@ -3,10 +3,21 @@ from link_bio.components.link_button import link_button
 
 def links() -> rx.Component:
     return rx.vstack(
-        link_button("Twitch", "https://twitch.tv"),
-        link_button("YouTube", "https://youtube.com"),
-        link_button("Discord", "https://discord.gg"),
-        link_button("GitHub", "https://github.com"),
-        align="center"
+        link_button(
+            "twitch", 
+            "tutoriales semanales", 
+            "https://twitch.tv"
+        ),
+        link_button(
+            "youtube", 
+            "tutoriales mensuales", 
+            "https://youtube.com"
+        ),
+        link_button("github", 
+                    "tutoriales anuales",
+                    "https://github.com"
+        ),
+        align="center",
+        width="100%"
     )
     

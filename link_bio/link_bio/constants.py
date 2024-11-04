@@ -1,0 +1,1 @@
+# ! aquí podemos agregar constantes de texto u otros para ser utilizados en el programa

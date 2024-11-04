@@ -2,4 +2,7 @@
 *.py[cod]
 .web
 __pycache__/
-assets/external/
+venv/
+chakra.txt
+entorno_virtual.txt
+reflex.txt

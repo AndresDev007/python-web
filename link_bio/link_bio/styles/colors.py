@@ -1,0 +1,1 @@
+# Para las constantes de colores, usar una clase que herede de enum y crear las constantes dentro
